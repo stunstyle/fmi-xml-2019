@@ -1,0 +1,3 @@
+<?xml-stylesheet type="text/xsl" href="./transformation/ITCatalogue_Transform.xsl"?>
+<GameCatalogue xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./schema/GameCatalogue.xsd">
+</GameCatalogue>
