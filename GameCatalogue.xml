@@ -1,3 +1,13 @@
-<?xml-stylesheet type="text/xsl" href="./transformation/ITCatalogue_Transform.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <GameCatalogue xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./schema/GameCatalogue.xsd">
+<Game genre="Racing">
+    <ID>1</ID>
+    <Name>Forza Horizon 4</Name>
+    <Platform>PC</Platform>
+    <Platform>Xbox One</Platform>
+    <Information>The best racing game right now.</Information>
+    <Studio>Microsoft Games</Studio>
+    <Price>59.99</Price>
+    <ReleaseDate>2018-10</ReleaseDate>
+</Game>
 </GameCatalogue>

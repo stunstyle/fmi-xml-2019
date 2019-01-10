@@ -35,5 +35,17 @@
 			<xs:enumeration value="Multiplayer"/>
 		</xs:restriction>
 	</xs:simpleType>
+	<xs:simpleType name="Platform">
+		<xs:annotation>
+			<xs:documentation>List of game platforms</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="PC"/>
+			<xs:enumeration value="PS4"/>
+			<xs:enumeration value="Xbox One"/>
+			<xs:enumeration value="PS3"/>
+			<xs:enumeration value="Xbox 360"/>
+		</xs:restriction>
+	</xs:simpleType>
 
 </xs:schema>
