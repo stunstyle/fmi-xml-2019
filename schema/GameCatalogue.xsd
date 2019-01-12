@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:gm="http://www.GameCatalogue.com/Game">
-	<xs:import namespace="http://www.GameCatalogue.com/Game" schemaLocation="./Game.xsd"/> 
+	<xs:import namespace="http://www.GameCatalogue.com/Game" schemaLocation="./Game.xsd"/>
 	<xs:element name="GameCatalogue">
 		<xs:annotation>
 			<xs:documentation>Catalogue root element</xs:documentation>
@@ -10,5 +10,16 @@
 				<xs:element name="Game" type="gm:Game" minOccurs="1" maxOccurs="unbounded"/>
 			</xs:sequence>
 		</xs:complexType>
+		<xs:key name="idKey">
+			<xs:selector xpath="./Game"/>
+			<xs:field xpath="ID"/>
+		</xs:key>
+		<xs:key name="nameKey">
+			<xs:selector xpath="./Game"></xs:selector>
+			<xs:field xpath="Name"></xs:field>
+		</xs:key>
+		<!-- TODO: KEYREFS -->
+	
 	</xs:element>
+	
 </xs:schema>
