@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://www.GameCatalogue.com/Types" attributeFormDefault="unqualified">
-<xs:simpleType name="String32">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tp="http://www.GameCatalogue.com/Types" targetNamespace="http://www.GameCatalogue.com/Types" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:simpleType name="String32">
 		<xs:annotation>
 			<xs:documentation>String format with 32 characters</xs:documentation>
 		</xs:annotation>
@@ -18,7 +18,7 @@
 			<xs:maxLength value="256"/>
 		</xs:restriction>
 	</xs:simpleType>
-	<xs:simpleType name="GenreList">
+	<xs:simpleType name="Genre">
 		<xs:annotation>
 			<xs:documentation>List of game genres</xs:documentation>
 		</xs:annotation>
@@ -33,6 +33,7 @@
 			<xs:enumeration value="MMO"/>
 			<xs:enumeration value="FPS"/>
 			<xs:enumeration value="Multiplayer"/>
+			<xs:enumeration value="MOBA"/>
 		</xs:restriction>
 	</xs:simpleType>
 	<xs:simpleType name="Platform">
@@ -47,5 +48,4 @@
 			<xs:enumeration value="Xbox 360"/>
 		</xs:restriction>
 	</xs:simpleType>
-
 </xs:schema>
