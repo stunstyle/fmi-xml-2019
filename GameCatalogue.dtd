@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT CATALOGUE EMPTY>
+<!NOTATION jpg SYSTEM "image/jpeg">
+<!ENTITY forza_pic SYSTEM "images/fh4.jpg" NDATA jpg>
+<!ENTITY fortnite_pic SYSTEM "images/fortnite.jpg" NDATA jpg>
+<!ENTITY rdr2_pic SYSTEM "images/rdr2.jpg" NDATA jpg>
+<!ENTITY heroes3_pic SYSTEM "images/heroes3.jpg" NDATA jpg>
+<!ENTITY gtaV_pic SYSTEM "images/gtaV.jpg" NDATA jpg>
+<!ENTITY fifa19_pic SYSTEM "images/fifa19.jpg" NDATA jpg>
+<!ENTITY dota2_pic SYSTEM "images/dota2.jpg" NDATA jpg>
