@@ -1,13 +1,94 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE catalogue SYSTEM "GameCatalogue.dtd">
 <GameCatalogue xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./schema/GameCatalogue.xsd">
-<Game genre="Racing">
+<Game publisher="Microsoft Studios">
     <ID>1</ID>
     <Name>Forza Horizon 4</Name>
     <Platform>PC</Platform>
     <Platform>Xbox One</Platform>
-    <Information>The best racing game right now.</Information>
-    <Studio>Microsoft Games</Studio>
+    <Information> </Information>
+    <Genre>Racing</Genre>
     <Price>59.99</Price>
     <ReleaseDate>2018-10</ReleaseDate>
+    <CoverImageLink alt="Forza Horizon 4 Cover" src="forza_pic"/>
 </Game>
+<Game publisher="Epic Games">
+    <ID>2</ID>
+    <Name>Fortnite</Name>
+    <Platform>PC</Platform>
+    <Platform>Xbox One</Platform>
+    <Platform>PS4</Platform>
+    <Information> </Information>
+    <Genre>Action</Genre>
+    <Genre>FPS</Genre>
+	<Genre>Multiplayer</Genre>
+    <Price>0</Price>
+    <ReleaseDate>2017-09</ReleaseDate>
+    <CoverImageLink alt="Fortnite Cover" src="fortnite_pic"/>
+</Game>
+<Game publisher="Rockstar Games">
+    <ID>3</ID>
+    <Name>Red Dead Redemption 2</Name>
+    <Platform>Xbox One</Platform>
+    <Platform>PS4</Platform>
+    <Information> </Information>
+    <Genre>Action</Genre>
+    <Genre>Adventure</Genre>
+    <Genre>Role-playing</Genre>
+    <Price>0</Price>
+    <ReleaseDate>2018-10</ReleaseDate>
+    <CoverImageLink alt="RDR2 Cover" src="rdr2_pic"/>
+</Game>
+<Game publisher="Ubisoft">
+    <ID>4</ID>
+    <Name>Heroes of Might and Magic III</Name>
+    <Platform>PC</Platform>
+    <Information> </Information>
+    <Genre>Multiplayer</Genre>
+    <Genre>Strategy</Genre>
+    <Price>0</Price>
+    <ReleaseDate>1999-02</ReleaseDate>
+    <CoverImageLink alt="HoMM3 Cover" src="heroes3_pic"/>
+</Game>
+<Game publisher="Rockstar Games">
+	<ID>5</ID>
+	<Name>Grand Theft Auto V</Name>
+	<Platform>PC</Platform>
+	<Platform>PS4</Platform>
+	<Platform>Xbox One</Platform>
+	<Information> </Information>
+	<Genre>Action</Genre>
+	<Genre>Adventure</Genre>
+	<Genre>Multiplayer</Genre>
+	<Genre>Role-playing</Genre>
+	<Price>0</Price>
+	<ReleaseDate>2013-09</ReleaseDate>
+	<CoverImageLink alt="GTA V Cover" src="gtaV_pic"/>
+</Game>
+<Game publisher="EA Games">
+	<ID>6</ID>
+	<Name>FIFA 19</Name>
+	<Platform>PC</Platform>
+	<Platform>PS4</Platform>
+	<Platform>Xbox One</Platform>
+	<Information> </Information>
+	<Genre>Sports</Genre>
+	<Price>0</Price>
+	<ReleaseDate>2018-10</ReleaseDate>
+	<CoverImageLink alt="FIFA 19 Cover" src="fifa19_pic"/>
+</Game>
+<Game publisher="Valve Corporation">
+	<ID>7</ID>
+	<Name>Dota 2</Name>
+	<Platform>PC</Platform>
+	<Information> </Information>
+	<Genre>Action</Genre>
+	<Genre>Multiplayer</Genre>
+	<Genre>MOBA</Genre>
+	<Price>0</Price>
+	<ReleaseDate>2013-07</ReleaseDate>
+	<CoverImageLink alt="Dota 2 Cover" src="dota2_pic"/>
+</Game>
+
 </GameCatalogue>
