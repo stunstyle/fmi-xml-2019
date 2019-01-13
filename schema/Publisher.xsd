@@ -7,6 +7,7 @@
 		<xs:element name="founded" type="xs:gYear" minOccurs="1" maxOccurs="1"/>
 		<xs:element name="numberOfEmployees" type="xs:integer" minOccurs="1" maxOccurs="1"/>
 		<xs:element name="president" type="tp:String32" minOccurs="1" maxOccurs="1"/>
+		<xs:element name="publisherWebSiteURL" type="xs:anyURI" minOccurs="1" maxOccurs="2"/>
 	</xs:sequence>
 	</xs:complexType>
 </xs:schema>
