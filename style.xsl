@@ -4,14 +4,19 @@
 	<html>
 		<head>
 			<title>Game Catalogue</title>
+			<link rel="stylesheet" type="text/css" href="./style.css" />
+			
 		</head>
 		<body>
 			<h1>My Videogames</h1>
 			<div>
 				<xsl:for-each select="GameCatalogue/Game">
-					<h4>Name: <xsl:value-of select="Name"/></h4>
+				<xsl:sort select="Price" data-type="number"/>
+					<h4 class="gameTitle">Name: <xsl:value-of select="Name"/></h4>
 					<img alt="" src="{unparsed-entity-uri(CoverImageLink/@src)}"/>	
-					<p>Available on <xsl:value-of select="Platform"/></p> <!--TODO: FIX-->
+					<p>Available on <xsl:for-each select="Platform"><xsl:value-of select="text()"/><xsl:if test="position() != last()">
+      <xsl:text>, </xsl:text>
+   </xsl:if></xsl:for-each></p> <!--TODO: FIX-->
 					<p>Publisher: <xsl:value-of select="@publisher"/></p>
 					<p>Information: <xsl:value-of select="Information"/></p>
 					<p>Genre: <xsl:value-of select="Genre"/></p>
