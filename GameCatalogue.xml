@@ -12,6 +12,7 @@
     <Genre>Racing</Genre>
     <Price>59.99</Price>
     <ReleaseDate>2018-10</ReleaseDate>
+    <BuyLink>https://www.microsoft.com/en-us/p/forza-horizon-4/9pnqkhfld2wq?activetab=pivot:overviewtab</BuyLink>
     <CoverImageLink alt="Forza Horizon 4 Cover" src="forza_pic"/>
 </Game>
 <Game publisher="Epic Games">
@@ -26,6 +27,8 @@
 	<Genre>Multiplayer</Genre>
     <Price>Free</Price>
     <ReleaseDate>2017-09</ReleaseDate>
+    <BuyLink>https://www.epicgames.com/fortnite/en-US/buy-now/battle-royale</BuyLink>
+
     <CoverImageLink alt="Fortnite Cover" src="fortnite_pic"/>
 </Game>
 <Game publisher="Rockstar Games">
@@ -39,6 +42,8 @@
     <Genre>Role-playing</Genre>
     <Price>59.99</Price>
     <ReleaseDate>2018-10</ReleaseDate>
+    <BuyLink>https://www.rockstargames.com/reddeadredemption2/order</BuyLink>
+
     <CoverImageLink alt="RDR2 Cover" src="rdr2_pic"/>
 </Game>
 <Game publisher="Ubisoft">
@@ -48,8 +53,10 @@
     <Information>The most popular Heroes® title of all time is back in HD! Fifteen years later, rediscover the epic tale of Queen Catherine Ironfist, as she re-embarks on her critically acclaimed quest to unite her ravaged homeland and re-conquer the kingdom of Erathia.</Information>
     <Genre>Multiplayer</Genre>
     <Genre>Strategy</Genre>
-    <Price>14.99</Price>
+    <Price>9.99</Price>
     <ReleaseDate>1999-02</ReleaseDate>
+    <BuyLink>https://www.gog.com/game/heroes_of_might_and_magic_3_complete_edition</BuyLink>
+
     <CoverImageLink alt="HoMM3 Cover" src="heroes3_pic"/>
 </Game>
 <Game publisher="Rockstar Games">
@@ -69,6 +76,8 @@ All the classic hallmarks of the groundbreaking series return, including incredi
 	<Genre>Role-playing</Genre>
 	<Price>29.99</Price>
 	<ReleaseDate>2013-09</ReleaseDate>
+	<BuyLink>https://www.rockstargames.com/V/order</BuyLink>
+
 	<CoverImageLink alt="GTA V Cover" src="gtaV_pic"/>
 </Game>
 <Game publisher="Electronic Arts">
@@ -81,7 +90,8 @@ All the classic hallmarks of the groundbreaking series return, including incredi
 	<Genre>Sports</Genre>
 	<Price>59.99</Price>
 	<ReleaseDate>2018-10</ReleaseDate>
-	<CoverImageLink alt="FIFA 19 Cover" src="fifa19_pic"/>
+    <BuyLink>https://www.ea.com/games/fifa/fifa-19/buy</BuyLink>
+    <CoverImageLink alt="FIFA 19 Cover" src="fifa19_pic"/>
 </Game>
 <Game publisher="Valve Corporation">
 	<ID>7</ID>
@@ -93,6 +103,7 @@ All the classic hallmarks of the groundbreaking series return, including incredi
 	<Genre>MOBA</Genre>
 	<Price>Free</Price>
 	<ReleaseDate>2013-07</ReleaseDate>
+	<BuyLink>https://store.steampowered.com/app/570/Dota_2/</BuyLink>
 	<CoverImageLink alt="Dota 2 Cover" src="dota2_pic"/>
 </Game>
 
@@ -101,6 +112,7 @@ All the classic hallmarks of the groundbreaking series return, including incredi
 	<founded>1998</founded>
 	<numberOfEmployees>2001</numberOfEmployees>
 	<president>Sam Houser</president>
+	<publisherWebSiteURL>https://www.rockstargames.com/</publisherWebSiteURL>
 </Publisher>
 
 <Publisher>
@@ -108,30 +120,35 @@ All the classic hallmarks of the groundbreaking series return, including incredi
 	<founded>2002</founded>
 	<numberOfEmployees>4000</numberOfEmployees>
 	<president>Phil Spencer</president>
+	<publisherWebSiteURL>https://www.microsoftstudios.com/</publisherWebSiteURL>
 </Publisher>
 <Publisher>
 	<name>Epic Games</name>
 	<founded>1991</founded>
 	<numberOfEmployees>700</numberOfEmployees>
 	<president>Tim Sweeney</president>
+	<publisherWebSiteURL>https://www.epicgames.com/</publisherWebSiteURL>
 </Publisher>
 <Publisher>
 	<name>Ubisoft</name>
 	<founded>1986</founded>
 	<numberOfEmployees>13742</numberOfEmployees>
 	<president>Yves Guillemot</president>
+	<publisherWebSiteURL>https://www.ubisoft.com/</publisherWebSiteURL>
 </Publisher>
 <Publisher>
 	<name>Electronic Arts</name>
 	<founded>1982</founded>
 	<numberOfEmployees>9300</numberOfEmployees>
 	<president>Andrew Wilson</president>
+	<publisherWebSiteURL>https://www.ea.com/</publisherWebSiteURL>
 </Publisher>
 <Publisher>
 	<name>Valve Corporation</name>
 	<founded>1996</founded>
 	<numberOfEmployees>360</numberOfEmployees>
 	<president>Gabe Newell</president>
+	<publisherWebSiteURL>https://www.valvesoftware.com/</publisherWebSiteURL>
 </Publisher>
 
 </GameCatalogue>

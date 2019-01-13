@@ -28,6 +28,5 @@
 			<xs:selector xpath="./Game"></xs:selector>
 			<xs:field xpath="@publisher"></xs:field>
 		</xs:keyref>
-		<!-- TODO: KEYREFS -->
 	</xs:element>
 </xs:schema>

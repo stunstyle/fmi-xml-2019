@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!ELEMENT CATALOGUE EMPTY>
 <!NOTATION jpg SYSTEM "image/jpeg">
 <!ENTITY forza_pic SYSTEM "images/fh4.jpg" NDATA jpg>
 <!ENTITY fortnite_pic SYSTEM "images/fortnite.jpg" NDATA jpg>

@@ -13,6 +13,7 @@
 			<xs:element name="Genre" type="tp:Genre" minOccurs="1" maxOccurs="5"/>
 			<xs:element name="Price" type="tp:price" minOccurs="1" maxOccurs="1"/>
 			<xs:element name="ReleaseDate" type="xs:gYearMonth" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="BuyLink" type="xs:anyURI" minOccurs="1" maxOccurs="1"/>
 			<xs:element name="CoverImageLink" minOccurs="0" maxOccurs="1">
 				<xs:complexType>
 					<xs:attribute name="src" type="tp:String32" use="required"/>
@@ -21,5 +22,6 @@
 			</xs:element>
 		</xs:sequence>
 		<xs:attribute name="publisher" type="tp:String32" use="required"/>
+		
 	</xs:complexType>
 </xs:schema>
