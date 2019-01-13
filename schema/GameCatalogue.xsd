@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:gm="http://www.GameCatalogue.com/Game">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:gm="http://www.GameCatalogue.com/Game" xmlns:pb="http://www.GameCatalogue.com/Publisher">
 	<xs:import namespace="http://www.GameCatalogue.com/Game" schemaLocation="./Game.xsd"/>
+	<xs:import namespace="http://www.GameCatalogue.com/Publisher" schemaLocation="./Publisher.xsd"/>
 	<xs:element name="GameCatalogue">
 		<xs:annotation>
 			<xs:documentation>Catalogue root element</xs:documentation>
@@ -8,6 +9,7 @@
 		<xs:complexType>
 			<xs:sequence>
 				<xs:element name="Game" type="gm:Game" minOccurs="1" maxOccurs="unbounded"/>
+				<xs:element name="Publisher" type="pb:Publisher" minOccurs="1" maxOccurs="unbounded"/>
 			</xs:sequence>
 		</xs:complexType>
 		<xs:key name="idKey">
@@ -15,11 +17,17 @@
 			<xs:field xpath="ID"/>
 		</xs:key>
 		<xs:key name="nameKey">
-			<xs:selector xpath="./Game"></xs:selector>
-			<xs:field xpath="Name"></xs:field>
+			<xs:selector xpath="./Game"/>
+			<xs:field xpath="Name"/>
 		</xs:key>
+		<xs:key name="publisherKey">
+			<xs:selector xpath="./Publisher"></xs:selector>
+			<xs:field xpath="name"></xs:field>
+		</xs:key>
+		<xs:keyref name="publisherRef" refer="publisherKey">
+			<xs:selector xpath="./Game"></xs:selector>
+			<xs:field xpath="@publisher"></xs:field>
+		</xs:keyref>
 		<!-- TODO: KEYREFS -->
-	
 	</xs:element>
-	
 </xs:schema>
