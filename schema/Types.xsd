@@ -18,6 +18,15 @@
 			<xs:maxLength value="256"/>
 		</xs:restriction>
 	</xs:simpleType>
+	<xs:simpleType name="String1024">
+		<xs:annotation>
+			<xs:documentation>String format with 1024 characters</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:minLength value="1"/>
+			<xs:maxLength value="1024"/>
+		</xs:restriction>
+	</xs:simpleType>
 	<xs:simpleType name="Genre">
 		<xs:annotation>
 			<xs:documentation>List of game genres</xs:documentation>
@@ -48,4 +57,18 @@
 			<xs:enumeration value="Xbox 360"/>
 		</xs:restriction>
 	</xs:simpleType>
+	 <xs:simpleType name="price"> 
+    <xs:union> 
+      <xs:simpleType> 
+        <xs:restriction base="xs:decimal">
+			<xs:minExclusive value="0"/>
+        </xs:restriction> 
+      </xs:simpleType> 
+      <xs:simpleType> 
+        <xs:restriction base="xs:string"> 
+          <xs:enumeration value="Free"/> 
+        </xs:restriction> 
+      </xs:simpleType> 
+    </xs:union> 
+  </xs:simpleType> 
 </xs:schema>
