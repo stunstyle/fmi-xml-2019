@@ -1,38 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"  xmlns:tp="http://www.GameCatalogue.com/Types" targetNamespace="http://www.GameCatalogue.com/Game">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tp="http://www.GameCatalogue.com/Types" xmlns:gm="http://www.GameCatalogue.com/Game" targetNamespace="http://www.GameCatalogue.com/Game">
 	<xs:import namespace="http://www.GameCatalogue.com/Types" schemaLocation="./Types.xsd"/>
 	<xs:complexType name="Game">
 		<xs:annotation>
-			<xs:documentation>A videogame</xs:documentation>
+			<xs:documentation>Game root element</xs:documentation>
 		</xs:annotation>
 		<xs:sequence>
-			<xs:element name="ID" type="xs:integer" maxOccurs="1" minOccurs="1"/>
-			<xs:element name="Name" type="tp:String32" maxOccurs="1" minOccurs="1"/>
+			<xs:element name="ID" type="xs:integer" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="Name" type="tp:String32" minOccurs="1" maxOccurs="1"/>
 			<xs:element name="Platform" type="tp:Platform" minOccurs="1" maxOccurs="unbounded"/>
-			<xs:element name="Information" type="tp:String256" minOccurs="1" maxOccurs="1"/>
-			<xs:element name="Studio" type="tp:String32" maxOccurs="1" minOccurs="1"/>
-			<xs:element name="ReleaseDate" type="xs:gYearMonth" minOccurs="0" maxOccurs="1"/>
-			<xs:element name="Price" type="xs:decimal" minOccurs="1" maxOccurs="1"/>
-			<!--
+			<xs:element name="Information" type="tp:String1024" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="Genre" type="tp:Genre" minOccurs="1" maxOccurs="5"/>
+			<xs:element name="Price" type="tp:price" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="ReleaseDate" type="xs:gYearMonth" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="CoverImageLink" minOccurs="0" maxOccurs="1">
 				<xs:complexType>
-					<xs:simpleContent>
-						<xs:extension base="xs:decimal">
-							<xs:attribute name="currencyCode" type="tp:CurrencySet" use="required"/>
-						</xs:extension>
-					</xs:simpleContent>
+					<xs:attribute name="src" type="tp:String32" use="required"/>
+					<xs:attribute name="alt" type="tp:String32" use="optional"/>
 				</xs:complexType>
-			</xs:element>-->
-			<xs:element name="ReleaseDate" type="xs:gYearMonth" minOccurs="0" maxOccurs="1"/>
-			<!--<xs:element name="CoverImageLink" minOccurs="0" maxOccurs="1">
-				<xs:complexType>
-					<xs:simpleContent>
-						<xs:extension base="tp:String256">
-							<xs:attribute name="alt" type="tp:String32" use="optional"/>
-						</xs:extension>
-					</xs:simpleContent>
-				</xs:complexType>
-			</xs:element>-->
+			</xs:element>
 		</xs:sequence>
-		<xs:attribute name="genre" type="tp:GenreList" use="required"/>
+		<xs:attribute name="publisher" type="tp:String32" use="required"/>
 	</xs:complexType>
 </xs:schema>
