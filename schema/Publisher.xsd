@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tp="http://www.GameCatalogue.com/Types" targetNamespace="http://www.GameCatalogue.com/Publisher">
+<xs:import namespace="http://www.GameCatalogue.com/Types" schemaLocation="./Types.xsd"/>
+	<xs:complexType name="Publisher">
+	<xs:sequence>
+		<xs:element name="name" type="tp:String32" minOccurs="1" maxOccurs="1" />
+		<xs:element name="founded" type="xs:gYear" minOccurs="1" maxOccurs="1"/>
+		<xs:element name="numberOfEmployees" type="xs:integer" minOccurs="1" maxOccurs="1"/>
+		<xs:element name="president" type="tp:String32" minOccurs="1" maxOccurs="1"/>
+	</xs:sequence>
+	</xs:complexType>
+</xs:schema>
