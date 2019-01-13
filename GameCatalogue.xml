@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="style.xsl"?>
 
 <!DOCTYPE catalogue SYSTEM "GameCatalogue.dtd">
 <GameCatalogue xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./schema/GameCatalogue.xsd">
@@ -7,7 +8,7 @@
     <Name>Forza Horizon 4</Name>
     <Platform>PC</Platform>
     <Platform>Xbox One</Platform>
-    <Information> </Information>
+    <Information>Live the Horizon Life when you play Forza Horizon 4. Experience a shared world with dynamic seasons. Explore beautiful scenery, collect over 450 cars and become a Horizon Superstar in historic Britain.</Information>
     <Genre>Racing</Genre>
     <Price>59.99</Price>
     <ReleaseDate>2018-10</ReleaseDate>
@@ -15,15 +16,15 @@
 </Game>
 <Game publisher="Epic Games">
     <ID>2</ID>
-    <Name>Fortnite</Name>
+    <Name>Fortnite: Battle Royale</Name>
     <Platform>PC</Platform>
     <Platform>Xbox One</Platform>
     <Platform>PS4</Platform>
-    <Information> </Information>
+    <Information>Fortnite Battle Royale is the FREE 100-player PvP mode in Fortnite. One giant map. A battle bus. Fortnite building skills and destructible environments combined with intense PvP combat. The last one standing wins.</Information>
     <Genre>Action</Genre>
     <Genre>FPS</Genre>
 	<Genre>Multiplayer</Genre>
-    <Price>0</Price>
+    <Price>Free</Price>
     <ReleaseDate>2017-09</ReleaseDate>
     <CoverImageLink alt="Fortnite Cover" src="fortnite_pic"/>
 </Game>
@@ -32,22 +33,22 @@
     <Name>Red Dead Redemption 2</Name>
     <Platform>Xbox One</Platform>
     <Platform>PS4</Platform>
-    <Information> </Information>
+    <Information>America, 1899. The end of the Wild West era has begun. After a robbery goes badly wrong in the western town of Blackwater, Arthur Morgan and the Van der Linde gang are forced to flee. With federal agents and the best bounty hunters in the nation massing on their heels, the gang must rob, steal and fight their way across the rugged heartland of America in order to survive. As deepening internal divisions threaten to tear the gang apart, Arthur must make a choice between his own ideals and loyalty to the gang who raised him.</Information>
     <Genre>Action</Genre>
     <Genre>Adventure</Genre>
     <Genre>Role-playing</Genre>
-    <Price>0</Price>
+    <Price>59.99</Price>
     <ReleaseDate>2018-10</ReleaseDate>
     <CoverImageLink alt="RDR2 Cover" src="rdr2_pic"/>
 </Game>
 <Game publisher="Ubisoft">
     <ID>4</ID>
-    <Name>Heroes of Might and Magic III</Name>
+    <Name>Heroes of Might and Magic III HD</Name>
     <Platform>PC</Platform>
-    <Information> </Information>
+    <Information>The most popular Heroes® title of all time is back in HD! Fifteen years later, rediscover the epic tale of Queen Catherine Ironfist, as she re-embarks on her critically acclaimed quest to unite her ravaged homeland and re-conquer the kingdom of Erathia.</Information>
     <Genre>Multiplayer</Genre>
     <Genre>Strategy</Genre>
-    <Price>0</Price>
+    <Price>14.99</Price>
     <ReleaseDate>1999-02</ReleaseDate>
     <CoverImageLink alt="HoMM3 Cover" src="heroes3_pic"/>
 </Game>
@@ -57,24 +58,28 @@
 	<Platform>PC</Platform>
 	<Platform>PS4</Platform>
 	<Platform>Xbox One</Platform>
-	<Information> </Information>
+	<Information>The biggest, most dynamic and most diverse open world ever created, Grand Theft Auto V blends storytelling and gameplay in new ways as players repeatedly jump in and out of the lives of the game’s three lead characters, playing all sides of the game’s interwoven story.
+
+All the classic hallmarks of the groundbreaking series return, including incredible attention to detail and Grand Theft Auto’s darkly humorous take on modern culture, alongside a brand new and ambitious approach to open world multiplayer.
+
+</Information>
 	<Genre>Action</Genre>
 	<Genre>Adventure</Genre>
 	<Genre>Multiplayer</Genre>
 	<Genre>Role-playing</Genre>
-	<Price>0</Price>
+	<Price>29.99</Price>
 	<ReleaseDate>2013-09</ReleaseDate>
 	<CoverImageLink alt="GTA V Cover" src="gtaV_pic"/>
 </Game>
-<Game publisher="EA Games">
+<Game publisher="Electronic Arts">
 	<ID>6</ID>
 	<Name>FIFA 19</Name>
 	<Platform>PC</Platform>
 	<Platform>PS4</Platform>
 	<Platform>Xbox One</Platform>
-	<Information> </Information>
+	<Information>From tactical approach to every technical touch, Control The Pitch in every moment with new gameplay features in EA SPORTS FIFA 19. The brand-new Active Touch System allows for closer control, Dynamic Tactics enables deeper and more accessible squad setups, 50/50 Battles enables greater physicality and more user skill when challenging for loose balls, and Timed Finishing elevates user control in striking.</Information>
 	<Genre>Sports</Genre>
-	<Price>0</Price>
+	<Price>59.99</Price>
 	<ReleaseDate>2018-10</ReleaseDate>
 	<CoverImageLink alt="FIFA 19 Cover" src="fifa19_pic"/>
 </Game>
@@ -82,13 +87,51 @@
 	<ID>7</ID>
 	<Name>Dota 2</Name>
 	<Platform>PC</Platform>
-	<Information> </Information>
+	<Information>Every day, millions of players worldwide enter battle as one of over a hundred Dota heroes. And no matter if it's their 10th hour of play or 1,000th, there's always something new to discover. With regular updates that ensure a constant evolution of gameplay, features, and heroes, Dota 2 has taken on a life of its own.</Information>
 	<Genre>Action</Genre>
 	<Genre>Multiplayer</Genre>
 	<Genre>MOBA</Genre>
-	<Price>0</Price>
+	<Price>Free</Price>
 	<ReleaseDate>2013-07</ReleaseDate>
 	<CoverImageLink alt="Dota 2 Cover" src="dota2_pic"/>
 </Game>
+
+<Publisher>
+	<name>Rockstar Games</name>
+	<founded>1998</founded>
+	<numberOfEmployees>2001</numberOfEmployees>
+	<president>Sam Houser</president>
+</Publisher>
+
+<Publisher>
+	<name>Microsoft Studios</name>
+	<founded>2002</founded>
+	<numberOfEmployees>4000</numberOfEmployees>
+	<president>Phil Spencer</president>
+</Publisher>
+<Publisher>
+	<name>Epic Games</name>
+	<founded>1991</founded>
+	<numberOfEmployees>700</numberOfEmployees>
+	<president>Tim Sweeney</president>
+</Publisher>
+<Publisher>
+	<name>Ubisoft</name>
+	<founded>1986</founded>
+	<numberOfEmployees>13742</numberOfEmployees>
+	<president>Yves Guillemot</president>
+</Publisher>
+<Publisher>
+	<name>Electronic Arts</name>
+	<founded>1982</founded>
+	<numberOfEmployees>9300</numberOfEmployees>
+	<president>Andrew Wilson</president>
+</Publisher>
+<Publisher>
+	<name>Valve Corporation</name>
+	<founded>1996</founded>
+	<numberOfEmployees>360</numberOfEmployees>
+	<president>Gabe Newell</president>
+</Publisher>
 
 </GameCatalogue>
